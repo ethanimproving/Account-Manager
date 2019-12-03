@@ -11,13 +11,3 @@ export interface IPhoneNumber {
   number: string;
   type: string;
 }
-
-// let x: IAccount;
-
-// let x: IAccount = {
-//   id:1,
-//   name: 'Ethan',
-//   email: 'afdasdf',
-//   isEmployee: false,
-//   departmentId: 'saf'
-// }

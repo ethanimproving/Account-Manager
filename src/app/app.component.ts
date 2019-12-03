@@ -9,7 +9,10 @@ import { Account } from './models';
 })
 export class AppComponent implements OnInit {
 
-  private accountService = new AccountService();
+  constructor(
+    public accountService: AccountService
+  ) {
+  }
 
   accounts: Account[];
 
